@@ -1,0 +1,5 @@
+{
+	"desc": "支付宝登录",
+	"requireFormatName": "jiyiEeuialipay",
+	"requireName": "jiyi/eeuialipay"
+}

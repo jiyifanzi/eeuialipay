@@ -23,7 +23,7 @@ public class jiyiEeuialipayAppModule extends WXModuleBase {
 
     @JSMethod(uiThread = false)
     public void alipayLogin(String appid, JSCallback callback) {
-        // 传递给支付宝应用的业务参数
+        // 传递给支付宝应用的业务参数  ss
         final Map<String, String> bizParams = new HashMap<>();
         bizParams.put("url", "https://authweb.alipay.com/auth?auth_type=PURE_OAUTH_SDK&app_id"+ appid +"&scope=auth_user&state=init");
         // 支付宝回跳到您的应用时使用的 Intent Scheme。

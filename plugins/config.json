@@ -1,9 +1,0 @@
-{
-	"dependencies": {
-		"jiyi/eeuialipay": {
-			"requireName": "jiyi/eeuialipay",
-			"name": "jiyi/eeuialipay",
-			"url": "local"
-		}
-	}
-}

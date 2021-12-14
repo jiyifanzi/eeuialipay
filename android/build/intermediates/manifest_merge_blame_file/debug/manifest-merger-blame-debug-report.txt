@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="eeui.android.jiyiEeuialipay" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="16"
+7-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="29" />
+8-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+9
+10    <application>
+10-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:4:5-15:19
+11
+12        <!-- 为了使用 "通用跳转 SDK" 的能力，需要在您的 App 的 AndroidManifest.xml 中添加这一项 -->
+13        <!-- 并合理设置 android:scheme 的值 -->
+14        <activity
+14-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:7:9-14:20
+15            android:name="com.alipay.sdk.app.AlipayResultActivity"
+15-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:7:19-73
+16            tools:node="merge" >
+16-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:7:74-92
+17            <intent-filter tools:node="replace" >
+17-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:8:13-13:29
+17-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:8:28-48
+18                <action android:name="android.intent.action.VIEW" />
+18-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:9:17-68
+18-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:9:25-66
+19
+20                <category android:name="android.intent.category.DEFAULT" />
+20-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:10:17-75
+20-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:10:27-73
+21                <category android:name="android.intent.category.BROWSABLE" />
+21-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:11:17-77
+21-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:11:27-75
+22
+23                <data android:scheme="__alipaysdkdemo__" />
+23-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:12:17-59
+23-->/Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:12:23-57
+24            </intent-filter>
+25        </activity>
+26    </application>
+27
+28</manifest>

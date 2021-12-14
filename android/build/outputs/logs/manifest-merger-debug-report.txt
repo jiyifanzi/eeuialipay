@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:1:1-16:12
+INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:1:1-16:12
+INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:1:1-16:12
+	package
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:4:5-15:19
+activity#com.alipay.sdk.app.AlipayResultActivity
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:7:9-14:20
+	tools:node
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:7:74-92
+	android:name
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:7:19-73
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:__alipaysdkdemo__
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:8:13-13:29
+	tools:node
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:8:28-48
+action#android.intent.action.VIEW
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:9:17-68
+	android:name
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:9:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:10:17-75
+	android:name
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:10:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:11:27-75
+data
+ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:12:17-59
+	android:scheme
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml:12:23-57
+uses-sdk
+INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+		ADDED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/jiyi/Desktop/EEUI/eeuialipay/plugins/jiyi/eeuialipay/android/src/main/AndroidManifest.xml

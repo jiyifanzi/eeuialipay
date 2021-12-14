@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="eeui.android.jiyiEeuialipay" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <application>
+
+        <!-- 为了使用 "通用跳转 SDK" 的能力，需要在您的 App 的 AndroidManifest.xml 中添加这一项 -->
+        <!-- 并合理设置 android:scheme 的值 -->
+        <activity
+            android:name="com.alipay.sdk.app.AlipayResultActivity"
+            tools:node="merge" >
+            <intent-filter tools:node="replace" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="__alipaysdkdemo__" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
